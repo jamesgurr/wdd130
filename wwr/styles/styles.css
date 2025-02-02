@@ -43,7 +43,7 @@ header{
     color: #3E4235;
 }
 #background{
-    background-color: #7C8183;
+    background-color: #3E4235;
 }
 .msg{
     background-color: #7C8183;
@@ -78,9 +78,9 @@ footer a:hover{
     color: #3E4235;
     text-decoration: underline;
 }
-.icon{
+.icon, .logo{
     width: 80px;
 }
 h2{
-    color: #DEDEDB; 
+    color: #DEDEDB;
 }
