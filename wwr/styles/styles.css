@@ -55,7 +55,7 @@ main section{
 #7C8183
 */
 body{
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;
@@ -107,8 +107,8 @@ h4{
     font-family: var(--paragraph-font);
 }
 footer{
-    background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -116,7 +116,7 @@ footer p{
     font-size: 1.2em;
 }
 footer a{
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     text-decoration: none;
     font-family: var(--paragraph-font);
     
