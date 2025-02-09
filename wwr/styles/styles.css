@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #6F7146   ;
+    --secondary-color:  #3E4235;
+    --accent1-color: #DEDEDB;
+    --accent2-color: #7C8183;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Electrolize", serif;
+    --paragraph-font: "Roboto Flex", serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #7C8183;  /* headlines on a white background */ 
+    --headline-color-on-color: #DEDEDB; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #7C8183; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #DEDEDB; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #7C8183  ;
+    --nav-link-color: #A69B86;
+    --nav-background-color: #3E4235;
+    --nav-hover-link-color: #DEDEDB;
+    --nav-hover-background-color: #7C8183;
+  }
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
     text-align: center;
-    color: #6F7146;
+    color: var(--primary-color);
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
-    background-color: #7C8183;
-    color: #DEDEDB;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: var(--heading-font);
 }
 .button-box{
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 main section{
     text-align: center;
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -27,60 +55,104 @@ main section{
 #7C8183
 */
 body{
-    background-color: #7C8183;
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: rgba(20,30,13, .7);
+    font-family: var(--heading-font);
 }
 
 .book, .join{
-    background-color: #7C8183;
-    color: #DEDEDB;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color: #6F7146;
-    color: #3E4235;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 #background{
-    background-color: #3E4235;
+    background-color: var(--primary-color);
 }
 .msg{
-    background-color: #7C8183;
-}
-footer{
-    background-color: #7C8183;
+    background-color: var(--accent2-color);
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title{
-    color: #DEDEDB;
+    color: var(--accent1-color);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
-    color: #DEDEDB;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
 }
 .msg h2{
-    color: #DEDEDB;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
 }
 .msg p{
-    color: #DEDEDB;
+    color: var(--accent1-color);
+    padding-bottom: 15px;
+    font-family: var(--paragraph-font);
 }
 footer{
-    color: #DEDEDB;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
 }
 footer a{
-    color: #DEDEDB;
+    color: var(--accent1-color);
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    
 }
 footer a:hover{
-    background-color: #6F7146;
-    color: #3E4235;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: underline;
+    font-family: var(--paragraph-font);
 }
 .icon, .logo{
     width: 80px;
+    padding-top: 10px;
 }
 h2{
-    color: #DEDEDB;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    margin: 0;
+}
+#logolink{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid var(--nav-background-color);
+}
+
+.mountains{
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
