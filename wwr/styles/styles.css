@@ -160,10 +160,12 @@ footer a:hover{
     text-decoration: underline;
     font-family: var(--paragraph-font);
 }
-.icon, .logo{
+.logo{
     width: 80px;
-    display: flex;
-    justify-content: center;
+    
+}
+.icon{
+    width: 80px;
 }
 h2{
     color: var(--accent1-color);
@@ -171,9 +173,12 @@ h2{
     margin: 0;
     justify-content: center;
 }
-/* #logolink{
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
     align-self: center;
-} */
+}
+
 
 footer .social img{
     padding-top: 15px;
