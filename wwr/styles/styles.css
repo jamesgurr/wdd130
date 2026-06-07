@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #6F7146   ;
+    --secondary-color:  #3E4235;
+    --accent1-color: #DEDEDB;
+    --accent2-color: #7C8183;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Electrolize", serif;
+    --paragraph-font: "Roboto Flex", serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #7C8183;  /* headlines on a white background */ 
+    --headline-color-on-color: #DEDEDB; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #7C8183; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #DEDEDB; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #7C8183  ;
+    --nav-link-color: #ffffff;
+    --nav-background-color: #2e3126;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #ffffff;
+  }
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+nav{
+    display: flex;
+    place-items: center;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+    font-family: var(--heading-font);
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg h4 {
+    color: white;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.button-box{
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+main section{
+    text-align: center;
+    box-sizing: border-box;
+    /* grid-template-rows: repeat(11, 1fr); */
+}
+#background {
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+/*
+#7C8183
+*/
+body{
+    background-color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(20,30,13, .7);
+    font-family: var(--heading-font);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.book, .join{
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#background{
+    background-color: var(--primary-color);
+}
+.msg{
+    background-color: var(--accent2-color);
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.home-title{
+    color: var(--accent1-color);
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+.msg h2{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+.msg p{
+    color: var(--accent1-color);
+    padding-bottom: 15px;
+    font-family: var(--paragraph-font);
+}
+footer{
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer a{
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    
+}
+footer a:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: underline;
+    font-family: var(--paragraph-font);
+}
+.logo{
+    width: 80px;
+    
+}
+.icon{
+    width: 80px;
+}
+h2{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    margin: 0;
+    justify-content: center;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card{
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card{
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+/*  */
+.card-img{
+    width: 100%;
+    border: 10px solid var(--nav-background-color);
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.mountains{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: center;
+    place-items: center;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}

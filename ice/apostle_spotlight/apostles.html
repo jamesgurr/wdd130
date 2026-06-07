@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body{
+            background-color: #e8eced;
+        }
+        h1, h2{
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #container {
+            background-image: url('images/christus.webp');
+            border-radius: 40px;
+            border: 10px solid black;
+            margin: 20px 200px 50px 200px;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        #first-presidency {
+            display: inline-grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+        }
+        #first-presidency div {
+            clip-path: circle(42% at 50% 41%);
+            background-color: white; 
+            padding: 8px;            
+            width: 125px;            
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #first-presidency img {
+            clip-path: circle(42% at 50% 41%);
+            width: 100%;
+            display: block;
+        }
+        #quorum-of-the-twelve {
+            display: inline-grid;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+        }
+        #quorum-of-the-twelve div {
+            clip-path: circle(42% at 50% 41%);
+            background-color: white; 
+            padding: 8px;            
+            width: 100px;            
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #quorum-of-the-twelve img {
+            clip-path: circle(42% at 50% 41%);
+            width: 100%;
+            display: block;
+        }
+        #first-presidency div:hover,
+        #quorum-of-the-twelve div:hover {
+            clip-path: none;
+            background-color: transparent; 
+            padding: 0px;                  
+            transform: scale(1.2);
+            transition: transform 0.3s ease;      
+            z-index: 10;                  
+        }
+        #first-presidency div:hover img,
+        #quorum-of-the-twelve div:hover img {
+            clip-path: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>First Presidency</h1>
+        <div id="first-presidency">
+            <div><img src="images/eyring.webp" ></div>
+            <div style="width: 150px;"><img src="images/oaks.webp" ></div>
+            <div><img src="images/christofferson.webp" ></div>
+        </div>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div id="quorum-of-the-twelve">
+            <div><img src="images/uchtdorf.webp" ></div>
+            <div><img src="images/bednar.webp" ></div>
+            <div><img src="images/cook.webp" ></div>
+            <div><img src="images/anderson.webp" ></div>
+            <div><img src="images/rasband.webp" ></div>
+            <div><img src="images/stevenson.webp" ></div>
+            <div><img src="images/renlund.webp" ></div>
+            <div><img src="images/gong.webp" ></div>
+            <div><img src="images/soares.webp" ></div>
+            <div><img src="images/kearon.webp" ></div>
+            <div><img src="images/causse.webp" ></div>
+            <div><img src="images/gilbert.webp" ></div>     
+        </div>
+    </div>
+</body>
+</html>
