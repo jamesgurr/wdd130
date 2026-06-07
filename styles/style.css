@@ -42,6 +42,7 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+  height: 9em;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -238,6 +239,9 @@ footer nav .ice {
 }
 footer nav .contact {
     grid-column: 7 / 8;
+}
+footer nav p {
+    color: var(--paragraph-background-color);
 }
 a{
     text-decoration: none;
