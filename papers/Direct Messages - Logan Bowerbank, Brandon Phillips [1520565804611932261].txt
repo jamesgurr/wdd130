@@ -1,0 +1,253 @@
+==============================================================
+Guild: Direct Messages
+Channel: Logan Bowerbank, Brandon Phillips
+==============================================================
+
+[6/27/2026 5:05 PM] bdp.phillips
+Okay so far this is our group, hopefully the 3rd guy joins soon
+
+{Reactions}
+👍 (2)
+
+[6/27/2026 5:06 PM] bdp.phillips
+
+
+{Forwarded Message}
+Originally sent: 6/27/2026 5:01 PM
+{Attachments}
+https://cdn.discordapp.com/attachments/1520565804611932261/1520566018492207134/2ED2A6F0-32D3-410C-9B28-5D0BA909DC8F.pdf?ex=6a41a8f5&is=6a405775&hm=6b1bd1da643e5bcae9b2409840c0798076344e21938cb52888626c0483d56450&
+
+
+
+[6/27/2026 5:06 PM] bdp.phillips
+
+
+{Forwarded Message}
+Alright, looking at the assignment due tomorrow It looks like we need to share your plans with each other so here are mine. 
+
+Also have you been able to contact any of the other two?
+Originally sent: 6/26/2026 12:53 PM
+{Attachments}
+https://cdn.discordapp.com/attachments/1520565804611932261/1520566051262304366/site-plan-template-updated.docx?ex=6a41a8fd&is=6a40577d&hm=f737efbb625c40b7ee55fd4638dff37d94ce9322546538f878ab5b3584f09d8c&
+
+
+
+[6/27/2026 5:07 PM] bdp.phillips
+the weird worded document is my site plan and the nicely labeled one is Logan’s
+
+
+[6/27/2026 5:07 PM] bdp.phillips
+James you want to send in your site plan?
+
+
+[6/27/2026 5:14 PM] gurr8106
+I'll send that in a sec. I'm finishing eating
+
+
+[6/27/2026 5:34 PM] gurr8106
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1520565804611932261/1520573025412448266/gurr-site-plan.docx?ex=6a41af7c&is=6a405dfc&hm=56f925f7bc7b7f91643e376ef3fae84ef73a551bd3c1c37cae7562eb840eb29f&
+
+
+[6/27/2026 5:49 PM] gurr8106
+What are y'alls github accounts?
+
+
+[6/27/2026 5:51 PM] nagolthebagel
+loganbowerbank-cmyk
+
+
+[6/27/2026 5:57 PM] gurr8106
+this is mine btw jamesgurr
+
+
+[6/27/2026 6:09 PM] bdp.phillips
+bdphillips17
+
+
+[6/27/2026 6:11 PM] gurr8106
+Just added you to the repo
+
+
+[6/27/2026 6:14 PM] gurr8106
+Just accepted the invite
+
+
+[6/27/2026 6:14 PM] bdp.phillips
+okay so im a little confused. we have three different repos and we all have to contrubute to each others websites? @Logan Bowerbank have you made your repo yet and invited us to it?
+
+
+[6/27/2026 6:15 PM] gurr8106
+I think the client has no access (only the web link) and the lead (creates the repo) and junior (gets access to publish).
+
+
+[6/27/2026 6:17 PM] bdp.phillips
+and it says to use github pages but thats locked behind a subscription. I wonder if the teach cares if we publish through a different website. do you guys publish through pages?
+
+
+[6/27/2026 6:19 PM] gurr8106
+can you add me again? also github pages should be free unless you have custom domain
+
+
+[6/27/2026 6:19 PM] bdp.phillips
+yeah i gotchu
+
+
+[6/27/2026 6:20 PM] bdp.phillips
+it says your in the repo for me
+
+
+[6/27/2026 6:20 PM] gurr8106
+oh the repo is private
+
+
+[6/27/2026 6:20 PM] gurr8106
+yeah we made the sameone. I removed the one I made
+
+
+[6/27/2026 6:21 PM] bdp.phillips
+oh bet bet. i just made mine public
+
+
+[6/27/2026 6:22 PM] bdp.phillips
+so you are the lead developer for my site and Im the lead for Logans site and then Logan is the lead for your site. Im the junior dev to logan for your site and your my junior dev for logans site... etc etc. This assignment makes sense now. Ill get the starter html code in and then let you do the junior dev tasks for the repo
+
+
+[6/27/2026 6:23 PM] gurr8106
+What does the starter code look like?
+
+
+[6/27/2026 6:24 PM] gurr8106
+Also let me make that repo and add you
+
+
+[6/27/2026 6:30 PM] bdp.phillips
+sounds good. I just did very basic html for now just added Logans last name and said this was gonna be his site plan and website
+
+
+[6/27/2026 6:32 PM] gurr8106
+Okay I see. Just like this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1520565804611932261/1520587705216405676/image.png?ex=6a41bd28&is=6a406ba8&hm=0beff094b8f63535e3514a664414a82d00af9806899b1ae379cbb5e94ab9baf1&
+
+
+[6/27/2026 6:33 PM] bdp.phillips
+yeah I changed it to Logans last name though i shouldve pushed it to the main. maybe refresh. Im gonna do a little bit more starter html and then im figuring out my assignments to give you as junior dev.
+
+
+[6/27/2026 6:34 PM] bdp.phillips
+we're down one teammate so ill just do two pages and ill give you one of the pages instead of two.
+
+
+[6/27/2026 6:34 PM] gurr8106
+I guess that would be managing the 2 pages? or something like that
+
+
+[6/27/2026 6:34 PM] gurr8106
+Oh okay that works too
+
+
+[6/27/2026 6:39 PM] gurr8106 (pinned)
+CareerFrench (Brandon Phillips)
+Client: Brandon Phillips
+Lead: James Gurr (me)
+Junior: Logan Bowerbank
+https://jamesgurr.github.io/wdd130-phillips/
+
+
+[6/27/2026 6:39 PM] gurr8106
+Pinned a message.
+
+
+[6/27/2026 6:44 PM] bdp.phillips
+perfect! I will leave the signup.html for @Gurr  in my repo. As soon as you are back @Logan Bowerbank if you want to give me my responsibility for the repo you make, then we can be done for the night and thankfully next week we will better know what to do haha.
+
+
+[6/27/2026 6:45 PM] gurr8106
+Can you readd me? Github is being a little strange.
+
+
+[6/27/2026 6:46 PM] bdp.phillips
+yeah I see your repo! is that what your asking
+
+
+[6/27/2026 7:18 PM] gurr8106
+sign up page is completed
+
+
+[6/27/2026 7:50 PM] nagolthebagel
+So to get this straight:
+
+Logan Site:       LEAD (Brandon)  JUNIOR (James)
+
+James Site:      LEAD (Logan)      JUNIOR (Brandon)
+
+Brandon Site:  LEAD (James)     JUNIOR (Logan)
+
+
+[6/27/2026 7:50 PM] gurr8106
+Yes
+
+{Reactions}
+👍
+
+[6/27/2026 7:50 PM] nagolthebagel
+And if so, I've made the repository for James' site and gave you access @Brandon Phillips
+
+
+[6/27/2026 7:51 PM] gurr8106
+Post the link and pin it here as well
+
+
+[6/27/2026 7:51 PM] nagolthebagel (pinned)
+Verified Support (James Gurr)  - https://loganbowerbank-cmyk.github.io/JamesGurr/
+
+
+[6/27/2026 7:51 PM] nagolthebagel
+Pinned a message.
+
+
+[6/27/2026 7:52 PM] gurr8106
+Did you add it to github pages?
+
+
+[6/27/2026 7:52 PM] nagolthebagel
+let me do that rq
+
+
+[6/27/2026 7:55 PM] gurr8106
+Also the link should be something like `https://[username].github.io/wdd130-[lastname]/` . Make sure to it is placed both in the readme and the about (Click Use your GitHub Pages website)
+
+
+[6/27/2026 7:55 PM] nagolthebagel
+Just updated it, thanks for reminding me
+
+{Reactions}
+👍
+
+[6/27/2026 7:57 PM] gurr8106 (pinned)
+The Tabletop Tactician (Logan Bowerbank)
+Client: Logan Bowerbank
+Lead: Brandon Phillips
+Junior: James Gurr
+https://bdphillips17.github.io/wdd130-bowerbank/
+
+
+[6/27/2026 7:57 PM] gurr8106
+Pinned a message.
+
+
+[6/27/2026 8:26 PM] gurr8106
+@Brandon PhillipsGlad you can see commit history. I fixed index and races. lmk if there is any other errors
+
+
+[6/27/2026 8:39 PM] gurr8106
+@Logan Bowerbank Sorry if it's late. Can you make the starting page for the career checklist?
+
+
+==============================================================
+Exported 51 message(s)
+==============================================================
